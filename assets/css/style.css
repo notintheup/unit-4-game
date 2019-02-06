@@ -1,0 +1,17 @@
+.jumbotron {
+  position: absolute;
+  display: block; 
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 0;
+}
+
+
+
+/* .container {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+} */
