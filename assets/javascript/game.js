@@ -24,13 +24,16 @@ $(document).ready(function () {
 })
 
 //Game 
-
-$(".gem1").click(function () {
-  newFunction();
-  alert("crystal1");
+$(".gem1, .gem2, .gem3, .gem4").on({
+  mouseenter: function(){
+    $(this).css("background-color", "purple");
+  }, 
+  mouseleave: function(){
+    $(this).css("background-color", "lightblue");
+  }, 
+  click: function(){
+    clickVal += $(this).val();
+    $("h5.card-current").text("current" + clickVal);
+  } 
 });
-function newFunction() {
-  current = current + crystal1;
-  $("h5.card-current").html(current);
-}
 
