@@ -10,12 +10,6 @@
   color: blue;
   font-size: 11px;
   background-color: #b8befa;
-  border-width: 2px;
-  border-color: purple;
-  border-style: dotted;
-}
-.btn-group {
-  padding-top: 5px;
 }
 .navbar {
   background-color: rgb(187, 116, 253);
@@ -23,7 +17,6 @@
   position: top center;
   justify-content: center;
   font-family: 'Monoton', cursive;
-
 }
 .row {
   justify-content: center;
