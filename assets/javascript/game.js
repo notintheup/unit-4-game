@@ -35,9 +35,8 @@ $(document).ready(function () {
     $("h5.card-target").html("Your target:  " + target);
     crystal1 = (Math.floor(Math.random() * 10 + 2));
     crystal2 = (Math.floor(Math.random() * 11 + 2));
-    crystal3 = (Math.floor(Math.random() * 12 + 2));
+    crystal3 = (Math.floor(Math.random() * 12 + 2))
     crystal4 = (Math.floor(Math.random() * 13 + 2));
-    // $("h5.card-current").html("Current Total:  " + current);
   }
   //Game runtime 
   $("img.gem1").click(function () {

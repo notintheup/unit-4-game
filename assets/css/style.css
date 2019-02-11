@@ -8,7 +8,6 @@
   max-width: 18em;
   max-height: 15em;
   color: blue;
-  font-family: monospace;
   font-size: 11px;
   background-color: #b8befa;
   border-width: 2px;
@@ -23,7 +22,8 @@
   color: #ffffff;
   position: top center;
   justify-content: center;
-  font-family: 'Patua One', cursive;
+  font-family: 'Monoton', cursive;
+
 }
 .row {
   justify-content: center;
